@@ -30,7 +30,6 @@ def operation_sum(rows):
 def operation_avg(rows):
     num_of_rows = 0
     the_sum = 0
-    average = 0
 
     for row in rows:
         curr_val = _get_val_from_row(row)
